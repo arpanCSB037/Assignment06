@@ -92,15 +92,6 @@ Update the username and password in `DBConnection.java` to match your local MySQ
 
 > **Important:** Do not commit real database passwords or other credentials to a public repository.
 
-**Existing database note:** If the table was previously created with `CGPA DECIMAL(3,2)`, change it to `DECIMAL(4,2)` to allow a value of `10.00`:
-
-```sql
-ALTER TABLE `2024CSB037`
-MODIFY CGPA DECIMAL(4,2);
-```
-
-This changes the column precision and preserves existing records.
-
 ## 5. Requirements
 
 Install the following software:
